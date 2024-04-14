@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.pai-senha{
+    position: fixed;
+    display: none;
+    margin: 10%;
+    justify-content: center;
+    background-color: rgb(208, 117, 212);
+    padding: 50px 78px;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.senha{
+    display: block;
+    color: #fff;
+}
+
+header{
+    background-color: rgb(208, 117, 212);
+    padding: 32px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.div-pai{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto-juntos{
+    width: 380px;
+    border-radius: 28px;
+    margin-top: 48px;
+}
+
+.texto-principal{
+    color: rgb(208, 117, 212) ;
+    text-align: center;
+}
+
+.txt{
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+
+input{
+    width: 100vw;
+    max-width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+button{
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(120, 33, 124);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.desaparesse1,.desaparesse2,.desaparesse3, .desaparesse4, 
+.desaparesse5,.desaparesse6, .desaparesse7,.sub-desaparesse1,
+.sub-desaparesse2, .sub-desaparesse3,.sub-desaparesse4,.sub-desaparesse5,
+.sub-desaparesse6,.sub-desaparesse7,.sub-desaparesse8,.sub-desaparesse9,
+.sub-desaparesse10,.sub-desaparesse11,.sub-desaparesse12,.sub-desaparesse13,
+.sub-desaparesse14,.sub-desaparesse15{
+    display: none;
+    background-color:rgb(231, 198, 233)  ;
+}
+
+.card-title{
+    background-color: rgb(120, 33, 124) ;
+    border-radius: 4px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.sub-card-title{
+    background-color: rgb(208, 117, 212) ;
+    border-radius: 4px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    cursor: pointer; 
+    position: relative;
+}
+
+#span1, #span2, #span3, #span4, #span5, #span6, #span7, 
+#sub-span1,#sub-span2,#sub-span3,#sub-span4,#sub-span5,
+#sub-span6,#sub-span7,#sub-span8,#sub-span9,#sub-span10,
+#sub-span11,#sub-span12,#sub-span13,#sub-span14,#sub-span15{
+    position: absolute;
+    left: 0;
+}
+
+footer{
+    padding: 32px;
+    background-color: rgb(208, 117, 212);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    align-items: center;
+}
+
+.insta{
+    width: 45px;
+}
